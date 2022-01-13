@@ -9,7 +9,7 @@ CACHE_ENABLED='false'
 
 STORAGE_LOCATIONS="local"
 STORAGE_LOCAL_DRIVER="local"
-STORAGE_LOCAL_ROOT="./uploads"
+STORAGE_LOCAL_ROOT="/app/uploads"
 
 ADMIN_EMAIL='admin@adeliom.com'
 ADMIN_PASSWORD='adminadmin'
