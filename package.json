@@ -8,7 +8,8 @@
     "npm": "8.x"
   },
   "scripts": {
-    "start": "directus start"
+    "start-directus": "directus start",
+    "start": "npx directus bootstrap; npx directus start"
   },
   "keywords": [],
   "author": "",
