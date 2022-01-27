@@ -1,0 +1,35 @@
+#PUBLIC_URL: "https://airbus-poc.herokuapp.com"
+KEY: "d8ff7510-d355-4acb-acd4-8628aec67b10"
+SECRET: "eGJQN7zXPzUs5Hh9ZRQ-pF_XybB4QQdM"
+
+DB_CLIENT: "mysql"
+DB_HOST: "ulsq0qqx999wqz84.chr7pe7iynqr.eu-west-1.rds.amazonaws.com"
+DB_PORT: "3306"
+DB_DATABASE: "vcb4x00n1foycmto"
+DB_USER: "ef21p8551x7cvdpe"
+DB_PASSWORD: "y50am22h5kmt2jnv"
+
+CACHE_ENABLED: 'false'
+
+#STORAGE_LOCATIONS: 'local'
+#STORAGE_LOCAL_DRIVER: 'local'
+#STORAGE_LOCAL_ROOT: './media'
+
+STORAGE_LOCATIONS: "digitalocean"
+STORAGE_DIGITALOCEAN_DRIVER: "s3"
+STORAGE_DIGITALOCEAN_KEY: "MXWFMWEYI2WTBYMUQEAY"
+STORAGE_DIGITALOCEAN_SECRET: "etuc/f8OEDuqNx28dJrMFqQbpgjT6Loo+gGftDgrcL0"
+STORAGE_DIGITALOCEAN_ENDPOINT: "fra1.digitaloceanspaces.com"
+STORAGE_DIGITALOCEAN_BUCKET: "airbus-space"
+STORAGE_DIGITALOCEAN_REGION: "fra1"
+
+#STORAGE_AWS_KEY: "AKIAUQRPNRBVHGS7XA65"
+#STORAGE_AWS_SECRET: "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"
+#STORAGE_AWS_BUCKET: "airbuspoc"
+#STORAGE_AWS_REGION: "us-east-1"
+
+ADMIN_EMAIL: 'admin@adeliom.com'
+ADMIN_PASSWORD: 'adminadmin'
+
+EXTENSIONS_PATH: './extensions'
+EXTENSIONS_AUTO_RELOAD: 'true'
